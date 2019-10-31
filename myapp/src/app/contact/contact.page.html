@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Contact a vendor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  Need to contact a vendor? Feel free to send them a message directly. Remember to leave your name, e-mail or phone number and reason of contact. They will reach out to you as soon as they can! Happy eating!
+  
+<br><br><br><br><br><br>
+
+  <ion-item>
+    <ion-label position="stacked" class="label">Your Message:</ion-label>
+    <ion-textarea [(ngModel)]="postTest" name="postTest"></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-button (click)="sendMessage()" class="send-button" color="dark" size="small">Send</ion-button>
+  </ion-item>
+
+  
+
+</ion-content>

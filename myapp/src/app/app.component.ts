@@ -17,9 +17,24 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Food Trucks',
       url: '/list',
-      icon: 'list'
+      icon: 'pizza'
+    },
+    {
+      title: 'Contact a vendor',
+      url: '/contact',
+      icon: 'mail'
+    },
+    {
+      title: 'Leave some love!',
+      url: '/reviews',
+      icon: 'heart-half'
+    },
+    {
+      title: 'Read some love!',
+      url: '/reviews2',
+      icon: 'text'
     }
   ];
 

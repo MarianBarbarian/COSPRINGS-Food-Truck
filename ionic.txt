@@ -1,0 +1,14 @@
+to create: 
+npm install -g ionic cordova
+
+ionic start myapp sidemenu
+
+to run:
+cd ionic app (move to desired folder)
+
+ionic serve
+
+add new page: ionic g page (tab)
+
+
+
